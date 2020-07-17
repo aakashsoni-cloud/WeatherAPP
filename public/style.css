@@ -22,23 +22,24 @@
     background-clip: border-box;
     background-size: cover;
     filter:blur(4px);
-    animation: slide 15s infinite;
+    animation: slide 20s linear infinite;
+    animation-play-state: running;
 }
 
 @keyframes slide{
     0%{
         background-image: url(./assets/img1.jpg);
     }
-    25%{
+    20%{
          background-image: url(./assets/img2.jpg);   
     }
-    50%{
+    40%{
          background-image: url(./assets/img3.jpg);
     }
-    75%{
+    60%{
          background-image: url(./assets/img5.jpg);
     }
-    90%{
+    80%{
         background-image: url(./assets/img4.jpg);
     }
 }
