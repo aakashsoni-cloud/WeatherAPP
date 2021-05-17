@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="public/assets/weather.svg" />
+    <link rel="stylesheet" href="public/style.css" />
+    <title>WeatherApp</title>
+  </head>
+
+  <body>
+    <div id="bg"></div>
+    <header>
+      <input
+        type="text"
+        autocomplete="off"
+        class="search"
+        placeholder="Search for a city..."
+      />
+    </header>
+
+    <main class="main">
+      <section class="location">
+        <div class="city">Jaipur,IN</div>
+        <div class="icon">
+          <img src="public/assets/icon.svg" alt="" class="img" />
+        </div>
+        <div class="date">Date</div>
+        <div class="time">GMT/UTC</div>
+      </section>
+      <div class="current">
+        <div class="temperature">15<span>°c</span></div>
+        <div class="weather">Sunny</div>
+        <div class="high-low">13°c / 16°c</div>
+        <div class="notification"></div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
